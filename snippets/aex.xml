@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- 
+    BROADCOM HARDWARE 
+  -->
+  <project path="hardware/interfaces" name="AospExtended/platform_hardware_interfaces" groups="pdk" remote="aex" />
+
+  <!-- 
+    DEVICE 
+  -->
+  <project path="device/qcom/sepolicy" name="AospExtended/platform_device_qcom_sepolicy" remote="aex" />
+  <project path="device/qcom/sepolicy-legacy" name="AospExtended/platform_device_qcom_sepolicy-legacy" remote="aex" />
+
+  <!-- 
+    EXTERNAL 
+  -->
+  <project path="external/perfetto" name="AospExtended/platform_external_perfetto" remote="aex" />
+  
+  <!-- 
+    HALs 
+  -->
+  <project path="hardware/qcom/bt-caf" name="AospExtended/platform_hardware_qcom_bt" groups="qcom" remote="aex" revision="9.x-caf" />
+  <project path="hardware/qcom/fm" name="AospExtended/platform_hardware_qcom_fm" remote="aex" />
+  <project path="hardware/qcom/bt-caf" name="AospExtended/platform_hardware_qcom_bt" groups="qcom" remote="aex" revision="9.x-caf" />
+  <project path="hardware/qcom/fm" name="AospExtended/platform_hardware_qcom_fm" remote="aex" />
+</manifest>
